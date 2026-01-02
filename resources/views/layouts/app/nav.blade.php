@@ -13,6 +13,14 @@
                     <span class="align-middle">Dashboards</span>
                 </a>
             </li>
+
+            <li class="sidebar-item">
+                <a class="sidebar-link" href="{{ route('empleados.index') }}">
+                    <i class="fas fa-users"></i> <span>Empleados</span>
+                </a>
+            </li>
+
+
             <li class="sidebar-item">
                 <a data-bs-target="#analytics" data-bs-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
                     <i class="fa-solid fa-chart-simple"></i>
